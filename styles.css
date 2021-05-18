@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fafafb;
+}
+
+/*navigation bar*/
+.navigation{
+    padding-left: 65px;
+    padding-right: 65px;
+}
+.navbar{
+    background-color: #fff;
+}
+.navbar-nav{
+    text-align: center;
+    margin:auto;
+}
+
+.nav-item{
+    font-size: 23px;
+    font-weight: 600;
+}
+
+li.nav-right {
+    list-style: none;
+}
+
+.notification {
+    padding-right: 30px;
+}
+
+.notification i {
+    font-size: 38px;
+    color: #92929D;
+}
+
+.notification i:after {
+    content: ".";
+    color: #FC5A5A;
+    font-size: 80px;
+    position: absolute;
+    top: -35px;
+    right: 150px;
+}
+
+/*breadcrumb section*/
+
+.breadcrumb{
+    background: url('images/Frame\ 148.jpg') no-repeat center center;
+    background-size: cover;
+    height: 276px;
+}
+
+.search-box {
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+.job-search {
+    width: 35%;
+}
+.location {
+    width: 30%;
+}
+
+.salary {
+    width: 25%;
+}
+
+.search-btn {
+    width: 10%;
+}
+
+.job-search input[type="text"] {
+    background: #FFFFFF;
+    box-shadow: inset -1px -1px 0px #f1f1f5;
+    border-radius: 10px 0px 0px 10px;
+    height: 60px;
+    border: none;
+    width: 100%;
+}
+
+.job-search img {
+    position: relative;
+    top: -42px;
+    left: 10px;
+}
+
+.location input[type="text"] {
+    background: #FFFFFF;
+    box-shadow: inset -1px -1px 0px #f1f1f5;
+    height: 60px;
+    border: none;
+    width: 100%;
+}
+
+.location img {
+    position: relative;
+    top: -42px;
+    left: 10px;
+}
+
+.salary input[type="text"] {
+    background: #FFFFFF;
+    box-shadow: inset -1px -1px 0px #f1f1f5;
+    height: 60px;
+    border: none;
+    width: 100%;
+}
+
+.salary img {
+    position: relative;
+    top: -42px;
+    left: 10px;
+}
+
+.search-btn input[type="submit"] {
+    background: #0062FF;
+    box-shadow: inset -1px -1px 0px #f1f1f5;
+    border-radius: 0px 10px 10px 0px;
+    height: 60px;
+    border: none;
+    width: 100%;
+    color: #fff;
+}
+
+.search-box input[type="text"]::placeholder {
+    padding-left: 35px;
+}
+
+/*content section*/
+.content{
+    padding-top: 50px;
+}
+
+.left-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #0062FF;
+}
+
+.left-title-text {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.left-after-menu{
+    padding-left: 10px;
+
+}
+
+.left-sub-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.left-sub-title-text {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/*category select*/
+.category {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.blue-bg {
+    background: #DEEBFF;
+    border-radius: 5.55294px;
+    color: #0052CC;
+    padding: 2px 8px;
+}
+
+.category input[type="checkbox"] {
+    width: 18px !important;
+    height: 18px !important;
+    margin: 5px;
+    font-size: 2em;
+    background-color: #DEEBFF !important;
+    cursor: pointer;
+}
+
+.cat-left label {
+    top: -8px;
+    position: relative;
+}
+
+
+/*salary category*/
+.slary-category {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
